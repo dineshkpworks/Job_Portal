@@ -17,7 +17,7 @@ A production-ready Job Portal built with React (Vite), Tailwind CSS, and Firebas
 
 2. **Environment**
    - Copy `.env.example` to `.env`
-   - **Firebase:** Set `VITE_FIREBASE_*` from [Firebase Console](https://console.firebase.google.com) (Auth, Firestore)
+   - **Firebase:** 
 
 3. **Run**
    ```bash
