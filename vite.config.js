@@ -8,6 +8,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Job_Portal/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
