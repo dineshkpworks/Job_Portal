@@ -53,7 +53,7 @@ const router = createBrowserRouter([
       { path: '*', element: <Navigate to="/404" replace /> },
     ],
   },
-]);
+], { basename: '/Job_Portal' });
 
 export function Routes() {
   return <RouterProvider router={router} />;
